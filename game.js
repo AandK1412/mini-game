@@ -160,12 +160,7 @@ function loadChapter(chapter) {
                     resources: "Limited — Patrols the border, has minimal resources, and no ability to assist defectors beyond enforcing the law.",
                     cost: "None — The Borderguard has authority to detain or stop individuals at the border but requires no immediate payment.",
                     trust: "Low — The Borderguard is motivated by duty, not compassion, and views defectors as criminals. Trust is minimal.",
-                    questions: [
-                        "Why do you believe defectors should be stopped?",
-                        "What would make you let someone pass?",
-                        "Are you willing to listen to their story?"
-                    ],
-                    image: "assets/borderguardpro.png"
+                    image: "assets/borderguardpro.png"  // Adjust to actual image path
                 }
             ]
         },
@@ -181,12 +176,7 @@ function loadChapter(chapter) {
                     resources: "Moderate — The host provides a safe house for hiding but does not have large-scale resources to assist.",
                     cost: "None — The host is primarily seeking safety for themselves and is helping Yeonmi and her mother without a high personal cost.",
                     trust: "Medium — The host is trustworthy but may not offer full safety as their own safety is at risk.",
-                    questions: [
-                        "Why are you willing to help them?",
-                        "How can you ensure their safety?",
-                        "What risks are you most afraid of?"
-                    ],
-                    image: "assets/hostpro.png"
+                    image: "assets/hostpro.png"  // Adjust to actual image path
                 },
                 {
                     name: "NGO Worker",
@@ -194,12 +184,7 @@ function loadChapter(chapter) {
                     resources: "High — The NGO worker has access to a network of support systems and can help provide safety and information for defectors.",
                     cost: "Low — The NGO worker requires minimal resources, mainly information and safe passage routes.",
                     trust: "High — The NGO worker is motivated by humanitarian goals and can be trusted to help defectors without personal profit.",
-                    questions: [
-                        "What motivates you to help?",
-                        "What resources can you offer?",
-                        "How do you protect both yourself and the defectors?"
-                    ],
-                    image: "assets/Ngopro.png"
+                    image: "assets/Ngopro.png"  // Adjust to actual image path
                 },
                 {
                     name: "Human Trafficker",
@@ -207,12 +192,7 @@ function loadChapter(chapter) {
                     resources: "Moderate — The trafficker has access to resources but uses them for exploitative purposes.",
                     cost: "High — The trafficker demands significant payment for their services and may demand more depending on the situation.",
                     trust: "Low — The trafficker is motivated by profit and is known for exploiting defectors. They can’t be trusted.",
-                    questions: [
-                        "What do you want in exchange?",
-                        "How can we be sure you won’t betray us?",
-                        "Why should we trust you at all?"
-                    ],
-                    image: "assets/humantraffickpro.png"
+                    image: "assets/humantraffickpro.png"  // Adjust to actual image path
                 }
             ]
         },
@@ -228,12 +208,8 @@ function loadChapter(chapter) {
                     resources: "Moderate — The guide possesses survival gear and knowledge of the desert but lacks large-scale support.",
                     cost: "High — The Desert Guide charges high fees for their services, and the cost could also include significant items or resources.",
                     trust: "Medium — While they provide essential services, the guide is primarily motivated by payment, and there is no guarantee of success.",
-                    questions: [
-                        "How experienced are you in this route?",
-                        "What happens if something goes wrong?",
-                        "Why should we trust you with our lives?"
-                    ],
-                    image: "assets/Desertguidepro.png"
+                    Question:"Should you help them?",
+                    image: "assets/Desertguidepro.png"  // Adjust to actual image path
                 }
             ]
         },
@@ -249,12 +225,7 @@ function loadChapter(chapter) {
                     resources: "High — The official has significant resources, including authority to grant asylum, process defectors, and provide safe passage to other countries.",
                     cost: "Low — The official requires little in return for processing asylum. Their role is part of the formal system.",
                     trust: "High — The Mongolian Official is an authority figure responsible for protecting defectors, and their role is aligned with international efforts to assist.",
-                    questions: [
-                        "What documents do you need from us?",
-                        "How long does the process take?",
-                        "How can you guarantee our safety?"
-                    ],
-                    image: "assets/mongolianOfficialpro.png"
+                    image: "assets/mongolianOfficialpro.png"  // Adjust to actual image path
                 }
             ]
         }
