@@ -28,9 +28,6 @@ motherSprite.src = "assets/mother-sprite.png";
 const BorderguardSprite = new Image();
 BorderguardSprite.src = "assets/Borderguard.png";
 
-const BorderguardSpritepro = new Image();
-BorderguardSpritepro.src = "assets/Borderguardpro.png";
-
 const hostSprite = new Image();
 hostSprite.src = "assets/host.png";
 
@@ -45,9 +42,6 @@ humantraffickSpritepro.src = "assets/humantraffickpro.png";
 
 const NGOSprite = new Image();
 NGOSprite.src = "assets/NGO.png";
-
-const NGOSpritepro = new Image();
-NGOSpritepro.src = "assets/NGOpro.png";
 
 const DesertguideSprite = new Image();
 DesertguideSprite.src = "assets/Desertguide.png";
