@@ -160,7 +160,7 @@ function loadChapter(chapter) {
                     resources: "Limited — Patrols the border, has minimal resources, and no ability to assist defectors beyond enforcing the law.",
                     cost: "None — The Borderguard has authority to detain or stop individuals at the border but requires no immediate payment.",
                     trust: "Low — The Borderguard is motivated by duty, not compassion, and views defectors as criminals. Trust is minimal.",
-                    image: BorderguardSpritepro // Adjust to actual image path
+                    image: "assets/Borderguardpro.png" // Adjust to actual image path
                 }
             ]
         },
@@ -184,7 +184,7 @@ function loadChapter(chapter) {
                     resources: "High — The NGO worker has access to a network of support systems and can help provide safety and information for defectors.",
                     cost: "Low — The NGO worker requires minimal resources, mainly information and safe passage routes.",
                     trust: "High — The NGO worker is motivated by humanitarian goals and can be trusted to help defectors without personal profit.",
-                    image: NGOSpritepro // Adjust to actual image path
+                    image: "assets/NGOpro.png" // Adjust to actual image path
                 },
                 {
                     name: "Human Trafficker",
