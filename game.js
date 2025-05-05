@@ -246,7 +246,7 @@ function loadChapter(chapter) {
                     <li><strong>Resources:</strong> ${char.resources}</li>
                     <li><strong>Cost:</strong> ${char.cost}</li>
                     <li><strong>Trust:</strong> ${char.trust}</li>
-                    <li><strong>questions:</strong> ${char.trust}</li>
+                    <li><strong>questions:</strong> ${char.questions}</li>
                 </ul>
             </div>
         `;
