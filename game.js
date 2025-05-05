@@ -231,7 +231,6 @@ function loadChapter(chapter) {
         }
     ];
 
-
     const c = chapterData[chapter - 1];
     chapterBackground = c.bg;
     narrativeContainer.innerHTML = `<h2>${c.title}</h2><p>${c.text}</p><h3>📌 Info</h3>${c.info}`;
