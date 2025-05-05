@@ -259,7 +259,7 @@ function loadChapter(chapter) {
             ]
         }
     ];
-}
+
 
     const c = chapterData[chapter - 1];
     chapterBackground = c.bg;
