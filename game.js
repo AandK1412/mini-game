@@ -154,6 +154,11 @@ function loadChapter(chapter) {
                     resources: "Limited — Patrols the border, has minimal resources, and no ability to assist defectors beyond enforcing the law.",
                     cost: "None — The Borderguard has authority to detain or stop individuals at the border but requires no immediate payment.",
                     trust: "Low — The Borderguard is motivated by duty, not compassion, and views defectors as criminals. Trust is minimal.",
+                    questions: [
+                        "Why do you believe defectors should be stopped?",
+                        "What would make you let someone pass?",
+                        "Are you willing to listen to their story?"
+                    ],
                     image: "assets/Borderguardpro.png" // Adjust to actual image path
                 }
             ]
@@ -241,6 +246,7 @@ function loadChapter(chapter) {
                     <li><strong>Resources:</strong> ${char.resources}</li>
                     <li><strong>Cost:</strong> ${char.cost}</li>
                     <li><strong>Trust:</strong> ${char.trust}</li>
+                    <li><strong>questions:</strong> ${char.trust}</li>
                 </ul>
             </div>
         `;
