@@ -248,7 +248,7 @@ function loadChapter(chapter) {
                         "How long does the process take?",
                         "How can you guarantee our safety?"
                     ],
-                    image: "assets/mongolianOfficialpro.png"
+                    image: "assets/MongolianOfficialpro.png"
                 }
             ]
         }
