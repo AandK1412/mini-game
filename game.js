@@ -298,6 +298,44 @@ function loadChapter(chapter) {
 }
 
 
+    const c = chapterData[chapter - 1];
+    chapterBackground = c.bg;
+    narrativeContainer.innerHTML = `<h2>${c.title}</h2><p>${c.text}</p><h3>📌 Info</h3>${c.info}`;
+
+    // Add character profiles to the page with questions
+    let characterHtml = "<h3>👥 Characters</h3>";
+    c.character.forEach((char) => {
+        let questionsHtml = "";
+        if (char.questions && char.questions.length > 0) {
+            questionsHtml = "<h5>Questions to Consider:</h5><ul>";
+            char.questions.forEach(q => {
+                questionsHtml += `<li>${q}</li>`;
+            });
+            questionsHtml += "</ul>";
+        }
+
+        characterHtml += `
+            <div class="character-profile">
+                <img src="${char.image}" alt="${char.name}" class="character-image">
+                <h4>${char.name}</h4>
+                <ul>
+                    <li><strong>Risk:</strong> ${char.risk}</li>
+                    <li><strong>Resources:</strong> ${char.resources}</li>
+                    <li><strong>Cost:</strong> ${char.cost}</li>
+                    <li><strong>Trust:</strong> ${char.trust}</li>
+                </ul>
+                ${questionsHtml}
+            </div>
+        `;
+    });
+
+    narrativeContainer.innerHTML += characterHtml;
+
+    showBanner(c.title);
+    setChapterNPCs(chapter);
+}
+
+
 
 function showBanner(text) {
     chapterBanner.textContent = text;
