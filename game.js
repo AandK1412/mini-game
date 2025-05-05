@@ -165,7 +165,7 @@ function loadChapter(chapter) {
                         "What would make you let someone pass?",
                         "Are you willing to listen to their story?"
                     ],
-                    image: "assets/borderguardpro.png"
+                    image: "assets/Borderguardpro.png"
                 }
             ]
         },
@@ -199,7 +199,7 @@ function loadChapter(chapter) {
                         "What resources can you offer?",
                         "How do you protect both yourself and the defectors?"
                     ],
-                    image: "assets/Ngopro.png"
+                    image: "assets/NGOpro.png"
                 },
                 {
                     name: "Human Trafficker",
